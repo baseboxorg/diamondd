@@ -1,0 +1,8 @@
+# Logs
+logs
+*.log
+.DS_Store
+cmd
+.vagrant
+.docker
+.Diamond
