@@ -20,6 +20,3 @@ docker exec -d diamondd-node bash diamondd -datadir=/data getinfo
 
 
 docker build --no-cache=false -t diamondd:jessie .
-
-
-export DMDPW='@@diamonD91706!'
