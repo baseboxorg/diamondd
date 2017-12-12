@@ -18,7 +18,8 @@ RUN git clone https://github.com/dmdcoin/diamond.git /usr/src/diamond
 
 WORKDIR /usr/src/diamond
 
-RUN ./autogen.sh && \
+RUN cd /usr/src/diamond && \ 
+    ./autogen.sh && \
     ./configure && \
     make install && \
     rm -rf /usr/src/diamond
